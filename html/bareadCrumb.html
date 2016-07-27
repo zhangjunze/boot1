@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h3>路径导航</h3>
+<ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Library</a></li>
+    <li class="active">active</li>
+</ol>
+<h1>分页</h1>
+<h3>默认分页</h3>
+<nav>
+    <ul class="pagination">
+        <li>
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+
+        <li>
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<h3>禁用和激活状态</h3>
+<nav>
+    <ul class="pagination">
+        <li class="disabled">
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="active"><span>1</span></li>
+    </ul>
+</nav>
+<nav>
+    <ul class="pagination">
+        <li class="disabled">
+      <span>
+        <span aria-hidden="true">&laquo;</span>
+      </span>
+        </li>
+        <li class="active">
+            <span>1 <span class="sr-only">(current)</span></span>
+        </li>
+    </ul>
+</nav>
+<h6>想要更小或更大的分页？.pagination-lg 或 .pagination-sm 类提供了额外可供选择的尺寸。</h6>
+<h3>翻页</h3>
+<h4>默认实例</h4>
+<nav>
+    <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+</nav>
+<h4>对齐链接</h4>
+<nav>
+    <ul class="pager">
+        <li class="previous">
+            <a href="#">
+            <span aria-hidden="true">&larr;</span>Older
+        </a>
+        </li>
+        <li class="next">
+            <a href="#">Newer
+                <span aria-hidden="true">&rarr;
+                </span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<h4>可选的禁用状态</h4>
+<h6>.disabled 类也可用于翻页中的链接</h6>
+<nav>
+    <ul class="pager">
+        <li class="previous disabled">
+            <a href="#">
+                <span aria-hidden="true">&larr;</span>Older
+            </a>
+        </li>
+        <li class="next">
+            <a href="#">Newer
+                <span aria-hidden="true">&rarr;
+                </span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<h1>标签</h1>
+<h3>我是张<span class="label label-default">俊泽</span></h3>
+<h3>变换字体</h3>
+
+</body>
+</html>
